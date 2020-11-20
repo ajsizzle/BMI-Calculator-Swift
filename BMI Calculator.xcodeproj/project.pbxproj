@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3829EA922562C29D00AADA16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3829EA912562C29D00AADA16 /* SecondViewController.swift */; };
+		384FE41425647233003AA195 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FE41325647233003AA195 /* ResultViewController.swift */; };
 		386CC6FF255965A1006EF1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386CC6FE255965A1006EF1D8 /* AppDelegate.swift */; };
 		386CC701255965A1006EF1D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386CC700255965A1006EF1D8 /* SceneDelegate.swift */; };
-		386CC703255965A1006EF1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386CC702255965A1006EF1D8 /* ViewController.swift */; };
+		386CC703255965A1006EF1D8 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386CC702255965A1006EF1D8 /* CalculateViewController.swift */; };
 		386CC706255965A1006EF1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386CC704255965A1006EF1D8 /* Main.storyboard */; };
 		386CC708255965A1006EF1D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386CC707255965A1006EF1D8 /* Assets.xcassets */; };
 		386CC70B255965A1006EF1D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386CC709255965A1006EF1D8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3829EA912562C29D00AADA16 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		384FE41325647233003AA195 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
 		386CC6FB255965A1006EF1D8 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386CC6FE255965A1006EF1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		386CC700255965A1006EF1D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		386CC702255965A1006EF1D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		386CC702255965A1006EF1D8 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		386CC705255965A1006EF1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		386CC707255965A1006EF1D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386CC70A255965A1006EF1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		386CC71525597349006EF1D8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				386CC702255965A1006EF1D8 /* ViewController.swift */,
-				3829EA912562C29D00AADA16 /* SecondViewController.swift */,
+				384FE41325647233003AA195 /* ResultViewController.swift */,
+				386CC702255965A1006EF1D8 /* CalculateViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -164,10 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3829EA922562C29D00AADA16 /* SecondViewController.swift in Sources */,
-				386CC703255965A1006EF1D8 /* ViewController.swift in Sources */,
+				386CC703255965A1006EF1D8 /* CalculateViewController.swift in Sources */,
 				386CC6FF255965A1006EF1D8 /* AppDelegate.swift in Sources */,
 				386CC701255965A1006EF1D8 /* SceneDelegate.swift in Sources */,
+				384FE41425647233003AA195 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
