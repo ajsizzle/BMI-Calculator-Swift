@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384B0C1F2569D2C100E8A633 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B0C1E2569D2C100E8A633 /* CalculatorBrain.swift */; };
+		384B0C23256AE28F00E8A633 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384B0C22256AE28F00E8A633 /* BMI.swift */; };
 		384FE41425647233003AA195 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FE41325647233003AA195 /* ResultViewController.swift */; };
 		386CC6FF255965A1006EF1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386CC6FE255965A1006EF1D8 /* AppDelegate.swift */; };
 		386CC701255965A1006EF1D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386CC700255965A1006EF1D8 /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		384B0C1E2569D2C100E8A633 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		384B0C22256AE28F00E8A633 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 		384FE41325647233003AA195 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
 		386CC6FB255965A1006EF1D8 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		386CC6FE255965A1006EF1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 		386CC7132559730F006EF1D8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				384B0C1E2569D2C100E8A633 /* CalculatorBrain.swift */,
+				384B0C22256AE28F00E8A633 /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -88,8 +94,8 @@
 		386CC71525597349006EF1D8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				384FE41325647233003AA195 /* ResultViewController.swift */,
 				386CC702255965A1006EF1D8 /* CalculateViewController.swift */,
+				384FE41325647233003AA195 /* ResultViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +173,8 @@
 				386CC703255965A1006EF1D8 /* CalculateViewController.swift in Sources */,
 				386CC6FF255965A1006EF1D8 /* AppDelegate.swift in Sources */,
 				386CC701255965A1006EF1D8 /* SceneDelegate.swift in Sources */,
+				384B0C1F2569D2C100E8A633 /* CalculatorBrain.swift in Sources */,
+				384B0C23256AE28F00E8A633 /* BMI.swift in Sources */,
 				384FE41425647233003AA195 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
